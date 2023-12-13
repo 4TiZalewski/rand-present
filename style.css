@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial;
+}
+
+.container {
+    margin: auto;
+    margin-top: 1rem;
+    width: 20rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 0.1rem solid white;
+    border-radius: 0.4rem;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+fieldset {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+fieldset > * {
+    margin: 0.3rem;
+}
+
+button {
+    padding-right: 0.3rem;
+    padding-left: 0.3rem;
+}
+
+#display {
+    display: flex;
+    margin: 1rem;
+}
+
+.msg {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.msg > p {
+    margin-right: 0.3rem;
+    width: max-content;
+}
+
+.important-msg,
+.important-name {
+    color: lime;
+}
+
+.important-name {
+    font-weight: bold;
+}
+
+.important-msg {
+    font-style: italic;
+}
